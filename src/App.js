@@ -53,6 +53,9 @@ function App() {
 
   return (
     <div className="App">
+      <div class="header-logo-section"><img data-src="https://quartersnacks.com/wp-content/uploads/2025/01/QS-JOURNAL-LOGO-BLACK.png" alt="Quartersnacks logo">
+        </img>
+      </div>
       <h1>My Go + React App</h1>
       <p>Message from Go: {message}</p>
       <button onClick={fetchData}>Fetch Data</button>
