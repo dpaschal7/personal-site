@@ -53,7 +53,7 @@ function App() {
 
   return (
     <div className="App">
-      <div class="header-logo-section"><img data-src="https://quartersnacks.com/wp-content/uploads/2025/01/QS-JOURNAL-LOGO-BLACK.png" alt="Quartersnacks logo">
+      <div class="header-logo-section"><img data-src="../public/drew_paschal_logo.png">
         </img>
       </div>
       <h1>My Go + React App</h1>
