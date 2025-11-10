@@ -53,7 +53,7 @@ function App() {
 
   return (
     <div className="App">
-      <div class="header-logo-section"><img data-src="https://personal-site-drew-paschal-images.s3.us-east-1.amazonaws.com/drew_paschal_logo.png" />
+      <div class="header-logo-section"><img src="/assets/images/drew_paschal_logo.png" />
       </div>
       <h1>My Go + React App</h1>
       <p>Message from Go: {message}</p>
