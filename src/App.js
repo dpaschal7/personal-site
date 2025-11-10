@@ -1,33 +1,33 @@
 // import logo from './logo.svg';
 // import React, {Component, Fragment} from "react";
 
-import './App.css';
 
 // function App() {
-//   return (
-
+  //   return (
     
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
-
+    
+    //     <div className="App">
+    //       <header className="App-header">
+    //         <img src={logo} className="App-logo" alt="logo" />
+    //         <p>
+    //           Edit <code>src/App.js</code> and save to reload.
+    //         </p>
+    //         <a
+    //           className="App-link"
+    //           href="https://reactjs.org"
+    //           target="_blank"
+    //           rel="noopener noreferrer"
+    //         >
+    //           Learn React
+    //         </a>
+    //       </header>
+    //     </div>
+    //   );
+    // }
+    
+    // export default App;
+    
+import './App.css';
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
@@ -53,7 +53,7 @@ function App() {
 
   return (
     <div className="App">
-      <div class="header-logo-section"><img data-src="/assets/images/drew_paschal_logo.png" />
+      <div class="header-logo-section"><img data-src="https://personal-site-drew-paschal-images.s3.us-east-1.amazonaws.com/drew_paschal_logo.png" />
       </div>
       <h1>My Go + React App</h1>
       <p>Message from Go: {message}</p>
